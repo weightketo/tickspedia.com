@@ -151,17 +151,11 @@
 	</div>
 	<script>
 		window.onload = function () {
-			$(&#39;.close-cookie&#39;).click(function () {
-				$(&#39;.cookie-banner&#39;).fadeOut();
+			$('.close-cookie').click(function () {
+				$('.cookie-banner').fadeOut();
 			})
 		}
 	</script>
-	<script>
-    let elems = document.querySelectorAll(&#39;.server-name&#39;);
-    elems.forEach((elem) =&gt; {
-        elem.innerHTML = window.location.hostname
-    })
-</script>
 	
 </body>
 </html>
